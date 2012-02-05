@@ -1,22 +1,19 @@
-A first pass on the documentation
-http://dl.dropbox.com/u/30579817/drush_compass_docs/drush_compass.txt
-
 /**
-* @file
-* Documentation for Drush include for integrating Compass
-* http://drupal.org/project/drush_compass 7.x-1.2 Posted by pobster http://drupal.org/user/25159
-* documentation author decibel.places http://drupal.org/user/58977
-* February 4, 2012
-*/
+ * @file
+ * Documentation for Drush include for integrating Compass
+ * http://drupal.org/project/drush_compass 7.x-1.2 Posted by pobster http://drupal.org/user/25159
+ * documentation author decibel.places http://drupal.org/user/58977
+ * February 4, 2012
+ */
 
 Compass is an open-source CSS Authoring Framework which uses the Sass extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more. It’s translated to well-formatted, standard CSS and makes your stylesheets easier to organize and maintain.
 
 This module provides a simple plugin to for compiling stylesheets with drush, it allows you to;
 
-Specify which themes you want to run an action on (or across all themes)
-Specify the environment switch for Compass
-Force a rebuild of stylesheets
-You can also use the --verbose switch if you wish to see the full command line output
+    Specify which themes you want to run an action on (or across all themes)
+    Specify the environment switch for Compass
+    Force a rebuild of stylesheets
+    You can also use the --verbose switch if you wish to see the full command line output
 
 Project sponsored by ITV.com. Initial source code written by Ben Scott.
 
@@ -35,6 +32,8 @@ Instructions for installing Ruby then Compass: http://compass-style.org/install/
 INSTALL
 
 Download tarball into your drush/includes folder
+
+This is NOT a Drupal module; do NOT put it in your modules directory!
 
 Extract to drush/includes:
 
@@ -120,8 +119,8 @@ http://compass-style.org/reference/compass/css3/
 SASS
 http://sass-lang.com/
 
-This document on Dropbox:
-http://dl.dropbox.com/u/30579817/drush_compass_docs/drush_compass.txt
+This document on Github:
+https://github.com/decibelplaces/drush_compass_docs
 
 =================
 
