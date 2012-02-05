@@ -66,7 +66,7 @@ sass_dir = "sass"
 images_dir = "images"
 javascripts_dir = "scripts"
 
-Copy your CSS files to the sass_dir and renamed them with the extension [style].scss
+Copy your CSS files to the sass_dir and rename them with the extension [style].scss
 Compass will compile your SASS files into CSS in the css_dir
 DO NOT ever edit the css files; all edits MUST be made to the SASS files
 
