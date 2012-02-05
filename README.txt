@@ -1,7 +1,8 @@
 /**
  * @file
  * Documentation for Drush include for integrating Compass
- * http://drupal.org/project/drush_compass 7.x-1.2 Posted by pobster http://drupal.org/user/25159
+ * http://drupal.org/project/drush_compass 7.x-1.2 
+ * Posted by pobster http://drupal.org/user/25159
  * documentation author decibel.places http://drupal.org/user/58977
  * February 4, 2012
  */
