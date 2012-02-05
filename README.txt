@@ -77,7 +77,7 @@ USE
 Syntax:
 $ drush [command] [theme_name]
 
-(Note: you don't have to remember paths, all you need to know is the theme machine name)
+(Note: you don't have to give the path, Druah knows it from the theme machine name)
 
 Commands:
 clean
