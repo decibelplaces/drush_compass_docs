@@ -120,8 +120,8 @@ http://compass-style.org/reference/compass/css3/
 SASS
 http://sass-lang.com/
 
-This document on Github:
-https://github.com/decibelplaces/drush_compass_docs
+Latest version of this document on Github:
+https://github.com/decibelplaces/drush_compass_docs/blob/master/README.txt
 
 =================
 
