@@ -1,20 +1,22 @@
 /**
  * @file
  * Documentation for Drush include for integrating Compass
- * http://drupal.org/project/drush_compass 7.x-1.2 
+ * http://drupal.org/project/drush_compass 7.x-1.2
  * Posted by pobster http://drupal.org/user/25159
  * documentation author decibel.places http://drupal.org/user/58977
  * February 4, 2012
  */
 
-Compass is an open-source CSS Authoring Framework which uses the Sass extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more. It’s translated to well-formatted, standard CSS and makes your stylesheets easier to organize and maintain.
+Compass is an open-source CSS Authoring Framework which uses the Sass extension of CSS3, adding
+nested rules, variables, mixins, selector inheritance, and more. Itâ€™s translated to well-formatted,
+standard CSS and makes your stylesheets easier to organize and maintain.
 
 This module provides a simple plugin to for compiling stylesheets with drush, it allows you to;
 
-    Specify which themes you want to run an action on (or across all themes)
-    Specify the environment switch for Compass
-    Force a rebuild of stylesheets
-    You can also use the --verbose switch if you wish to see the full command line output
+* Specify which themes you want to run an action on (or across all themes)
+* Specify the environment switch for Compass
+* Force a rebuild of stylesheets
+* You can also use the --verbose switch if you wish to see the full command line output
 
 Project sponsored by ITV.com. Initial source code written by Ben Scott.
 
@@ -54,8 +56,8 @@ First create or init a Compass project in your theme
 Create will generate a Compass project with pre-configured folders; may not be useful for existing projects using existing themes
 $ drush create [theme_name]
 
-//Drush Compass does not include a compass init function, used to initialize an existing project
-//You can run Compass on the command line from the installation directory of Compass
+// Drush Compass does not include a compass init function, used to initialize an existing project
+// You can run Compass on the command line from the installation directory of Compass
 $ compass init [path/to/theme]
 
 Edit [path/to/theme]/config.rb
@@ -80,29 +82,30 @@ $ drush [command] [theme_name]
 (Note: you don't have to give the path, Drush knows it from the theme machine name)
 
 Commands:
-clean
-compile
-create
-stats
-validate
+* clean
+* compile
+* create
+* stats
+* validate
 
-clean
+
+ * clean
 Remove generated files and the sass cache from a Compass theme
 $ drush clean [theme_name]
 
-compile
+ * compile
 Compiles and validate the generated theme stylesheets
 $ drush compile [theme_name]
 
-create
+ * create
 Create a new compass project
 $ drush create [theme_name]
 
-stats
+ * stats
 Print out statistics about your stylesheets
 $ drush stats [theme_name]
 
-validate
+ * validate
 Validate the generated CSS.
 $ drush validate [theme_name]
 
